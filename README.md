@@ -1,8 +1,58 @@
-# Hey, I'm Dev
+<div align="center">
 
-CS Master's Student @ Binghamton University, SUNY. Building scalable full-stack applications that solve real problems.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hey%2C+I'm+Dev;CS+Master's+%40+Binghamton+University;Building+AI+Tools+%26+Full-Stack+Apps)](https://github.com/DevNagi31)
 
-Currently focused on full-stack development, distributed systems, and AI tooling.
+</div>
+
+---
+
+### About
+
+CS Master's Student @ Binghamton University, SUNY. Building scalable full-stack applications and AI developer tools that solve real problems.
+
+Currently focused on **AI agent tooling**, full-stack development, and distributed systems.
+
+---
+
+### Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white)
+
+**Backend & Data**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
 
 ---
 
@@ -36,20 +86,23 @@ Currently focused on full-stack development, distributed systems, and AI tooling
 
 ---
 
-### Tech Stack
+### GitHub Stats
 
-**Languages:** Java, Python, C++, JavaScript, TypeScript, SQL, Dart
+<div align="center">
 
-**Frontend:** React, Next.js, Tailwind CSS, Socket.io, MapLibre GL JS
+<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevNagi31&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" />
 
-**Backend & Data:** Node.js, Express, Flask, PostgreSQL, MongoDB, Redis, Faktory
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DevNagi31&theme=tokyonight&hide_border=true)](https://github.com/DevNagi31)
 
-**AI/ML:** NLP, Computer Vision, LLM tool-use, Prompt Engineering
-
-**DevOps & Tools:** Docker, Git, JWT, AWS, GitHub Actions
+</div>
 
 ---
 
-### Connect
+<div align="center">
 
-[LinkedIn](https://linkedin.com/in/dev-nagi31) · [Portfolio](https://devnagi.com) · [Email](mailto:dnagi@binghamton.edu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dev-nagi31)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://devnagi.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dnagi@binghamton.edu)
+
+</div>
