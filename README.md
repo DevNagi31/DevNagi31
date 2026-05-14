@@ -88,28 +88,24 @@ Currently focused on **AI agent tooling**, full-stack development, and distribut
 
 ### GitHub Stats
 
-  <div align="center">
+<div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=tokyonight&hide_
-  border=true&count_private=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevNagi31&layout=compact&theme=tokyon
-  ight&hide_border=true&langs_count=8" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevNagi31&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" />
 
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DevNagi31&theme=tokyonight&hide_border
-  =true)](https://github.com/DevNagi31)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DevNagi31&theme=tokyonight&hide_border=true)](https://github.com/DevNagi31)
 
-  <br />
+<br />
 
-  **Contribution Heatmap**
+**Contribution Heatmap**
 
-  <img src="https://ghchart.rshah.org/6c63ff/DevNagi31" alt="DevNagi31's contributions heatmap" width="100%" />
+<img src="https://ghchart.rshah.org/6c63ff/DevNagi31" alt="DevNagi31's contributions heatmap" width="100%" />
 
-  <br /><br />
+<br /><br />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevNagi31&theme=tokyo-night&hide_bord
-  er=true&area=true&custom_title=Contribution%20Activity" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevNagi31&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" />
 
-  </div>
+</div>
 
 ---
 
