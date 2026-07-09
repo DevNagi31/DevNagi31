@@ -58,13 +58,13 @@ A fitness tracking app built in Flutter.
 <hr>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&hide_border=true&theme=dracula&hide_title=true" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=dracula" alt="GitHub stats" />
 </p>
 
 <hr>
 
 <p align="center">
-🔗 <a href="https://linkedin.com/in/dev-nagi31">LinkedIn</a> &nbsp;&nbsp;
-🌐 <a href="https://dev-portfolio-murex-five.vercel.app/">Portfolio</a> &nbsp;&nbsp;
-📧 <a href="mailto:dnagi@binghamton.edu">Email</a>
+<a href="https://linkedin.com/in/dev-nagi31">LinkedIn</a> &nbsp;&nbsp;
+<a href="https://dev-portfolio-murex-five.vercel.app/">Portfolio</a> &nbsp;&nbsp;
+<a href="mailto:dnagi@binghamton.edu">Email</a>
 </p>
