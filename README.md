@@ -64,7 +64,7 @@ A fitness tracking app built in Flutter.
 <hr>
 
 <p align="center">
-<a href="https://linkedin.com/in/dev-nagi31">LinkedIn</a> &nbsp;&nbsp;
-<a href="https://dev-portfolio-murex-five.vercel.app/">Portfolio</a> &nbsp;&nbsp;
-<a href="mailto:dnagi@binghamton.edu">Email</a>
+<a href="https://linkedin.com/in/dev-nagi31"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a> &nbsp;
+<a href="https://dev-portfolio-murex-five.vercel.app/"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" height="40" /></a> &nbsp;
+<a href="mailto:dnagi@binghamton.edu"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40" /></a>
 </p>
