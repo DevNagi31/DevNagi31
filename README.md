@@ -1,118 +1,70 @@
-<div align="center">
+<h1 align="center">Dev Nagi</h1>
+<p align="center"><i>Computer Science graduate student at Binghamton University, SUNY</i></p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&height=60&lines=Hey%2C+I'm+Dev+%F0%9F%91%8B;CS+Master's+%40+Binghamton+University;Building+AI+Tools+%26+Full-Stack+Apps)](https://github.com/DevNagi31)
-
-</div>
-
----
+<hr>
 
 ### About
 
-CS Master's Student @ Binghamton University, SUNY. Building scalable full-stack applications and AI developer tools that solve real problems.
+Most of what I build starts from the same annoyance: agent based systems tend to fail quietly. By the time you notice something is wrong, the actual cause is several tool calls and a couple of retries in the past, buried in a log nobody read. So a good chunk of my work is writing tools that make that failure visible again, plus a steady stream of full stack apps where I get to play with live systems: sockets, job queues, geospatial search, that kind of thing.
 
-Currently focused on **AI agent tooling**, full-stack development, and distributed systems.
+<hr>
 
----
+### Agent tooling
 
-### Tech Stack
+**[Agent Autopsy](https://github.com/DevNagi31/agent-autopsy)**
+A command line tool that inspects traces from AI agents and flags the failure patterns that usually go unnoticed: hallucinated steps, swallowed errors, tool call loops, contradictions, context that has gone stale. It parses output from LangChain, CrewAI, and the OpenAI SDK, has a watch mode for running agents, and produces HTML or JSON reports.
 
-<div align="center">
+**[Agent Debugger](https://github.com/DevNagi31/agent-debugger)**
+A time travel debugger for agent loops. You can grab any tool call in a run, edit its input or output, and replay execution from that exact point rather than rerunning the whole session from the top.
 
-**Languages**
+**[Token Analysis](https://github.com/DevNagi31/token-analysis)**
+A prompt cost optimizer and evaluation benchmark. It compresses prompts using both rule based methods and an LLM, then scores the result for semantic similarity against the original across ten different models, so you can tell whether you actually saved tokens or just broke the prompt.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+### Full stack
 
-**Frontend**
+**[EventHub](https://github.com/DevNagi31/eventhub)**
+An event discovery platform. Faktory handles the job queues, geospatial search runs on the Haversine formula, chat happens live over Socket.io, and Claude powers the recommendation layer. Fifteen plus REST endpoints, Redis for caching, Postgres underneath.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white)
+**[LeetCode Arena](https://github.com/DevNagi31/leetcode-arena)**
+A competitive LeetCode platform with live rankings, streak tracking, activity heatmaps, and university leaderboards. MERN stack, Socket.io for the live parts.
 
-**Backend & Data**
+**[URL Shortener](https://github.com/DevNagi31/url-shortner)**
+A link shortening service backed by Redis for caching and Postgres for persistence.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### Research
 
-**DevOps & Tools**
+**[Chess Toxicity Analysis](https://github.com/DevNagi31/chess-toxicity-analysis)**
+An NLP project for CS 515 that ran more than 164,000 posts from Reddit and 4chan through Google's Perspective API to measure toxicity patterns in chess adjacent discourse. Results sit behind a Flask dashboard backed by Postgres.
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**[Facial Emotion Recognition System](https://github.com/DevNagi31/Facial-Emotion-Recognition-System)**
+A real time facial emotion recognition system trained and evaluated on a large labeled dataset.
 
-</div>
+### Interactive
 
----
+**[BU Campus Map](https://github.com/DevNagi31/BU-Map)**
+An interactive 3D map of the Binghamton University campus. 115 buildings, more than 700 searchable rooms, GPS navigation, and info on parking, dining, and bus routes, all built on MapLibre GL JS.
 
-### AI & Developer Tools
+**[MyFIT](https://github.com/DevNagi31/MyFIT)**
+A fitness tracking app built in Flutter.
 
-- **[Agent Autopsy](https://github.com/DevNagi31/agent-autopsy)** — Silent failure detector for AI agents in production. 5 detection patterns (hallucinations, error swallowing, tool loops, contradictions, stale context), parsers for LangChain/CrewAI/OpenAI, watch mode, HTML/JSON reports. Python CLI.
+<hr>
 
-- **[Agent Debugger](https://github.com/DevNagi31/agent-debugger)** — Time-travel debugger for LLM agent loops. Capture tool calls, edit any step, replay from that point. TypeScript.
+### Tools I reach for
 
-- **[Token Analysis](https://github.com/DevNagi31/token-analysis)** — Prompt cost optimizer, token estimator, and evaluation benchmark. Rule-based + LLM-based compression with semantic similarity scoring across 10 models. TypeScript.
+<p align="left">
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,cpp,dart,react,nextjs,tailwind,nodejs,express,flask,postgres,mongodb,redis,docker,aws,git,githubactions" alt="tech icons" />
+</p>
 
-### Full-Stack Applications
+<hr>
 
-- **[EventHub](https://github.com/DevNagi31/eventhub)** — Event discovery platform with Faktory job queues, geospatial search (Haversine), real-time Socket.io chat, and Claude-powered recommendations. 15+ REST endpoints, Redis caching, PostgreSQL.
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&hide_border=true&theme=dracula&hide_title=true" alt="GitHub stats" height="165" />
+</p>
 
-- **[LeetCode Arena](https://github.com/DevNagi31/leetcode-arena)** — Competitive LeetCode platform with real-time rankings, gamification, activity heatmaps, streak tracking, and university leaderboards. MERN stack with Socket.io.
+<hr>
 
-- **[URL Shortener](https://github.com/DevNagi31/url-shortner)** — URL shortening service with Redis caching and PostgreSQL persistence.
-
-### Data & Research
-
-- **[Chess Toxicity Analysis](https://github.com/DevNagi31/chess-toxicity-analysis)** — NLP pipeline analyzing toxicity across 164K+ posts from Reddit and 4chan. Flask dashboard, Google Perspective API, PostgreSQL. Research for CS 515.
-
-- **[Facial Emotion Recognition](https://github.com/DevNagi31/Facial-Emotion-Recognition-System)** — Real-time facial emotion recognition system using machine learning and computer vision. Trained and evaluated on a large labeled dataset.
-
-### Interactive & Visual
-
-- **[BU Campus Map](https://github.com/DevNagi31/BU-Map)** — Interactive 3D campus map for Binghamton University. 115 buildings, 700+ searchable rooms, GPS navigation, parking/dining/bus info. Built with MapLibre GL JS.
-
-- **[MyFIT](https://github.com/DevNagi31/MyFIT)** — Fitness tracking app built with Flutter/Dart.
-
----
-
-### GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevNagi31&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" />
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=DevNagi31&theme=tokyonight&hide_border=true)](https://github.com/DevNagi31)
-
-<br />
-
-**Contribution Heatmap**
-
-<img src="https://ghchart.rshah.org/6c63ff/DevNagi31" alt="DevNagi31's contributions heatmap" width="100%" />
-
-<br /><br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevNagi31&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" />
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dev-nagi31)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dev-portfolio-murex-five.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dnagi@binghamton.edu)
-
-</div>
+<p align="center">
+🔗 <a href="https://linkedin.com/in/dev-nagi31">LinkedIn</a> &nbsp;&nbsp;
+🌐 <a href="https://dev-portfolio-murex-five.vercel.app/">Portfolio</a> &nbsp;&nbsp;
+📧 <a href="mailto:dnagi@binghamton.edu">Email</a>
+</p>
