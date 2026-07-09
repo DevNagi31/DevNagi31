@@ -58,7 +58,7 @@ A fitness tracking app built in Flutter.
 <hr>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DevNagi31&show_icons=true&theme=dracula" alt="GitHub stats" />
+<img src="https://github-stats-extended.vercel.app/api?username=DevNagi31&show_icons=true&theme=dracula" alt="GitHub stats" />
 </p>
 
 <hr>
