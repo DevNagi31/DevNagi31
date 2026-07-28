@@ -10,6 +10,7 @@ Most of what I build starts from the same annoyance: agent based systems tend to
 
 <hr>
 
+
 ### Agent tooling
 
 <table>
@@ -19,12 +20,16 @@ Most of what I build starts from the same annoyance: agent based systems tend to
 <br/>
 <b><a href="https://github.com/DevNagi31/agent-autopsy">Agent Autopsy</a></b><br/>
 Inspects AI agent traces and flags the failures that go unnoticed: hallucinated steps, swallowed errors, tool call loops, stale context. Parses LangChain, CrewAI, and OpenAI SDK output.
+<br/><br/>
+<code>Python</code>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/mcphub"><img src="assets/mcphub.svg" alt="mcphub"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/mcphub">mcphub</a></b><br/>
 A research crew on Anthropic's Model Context Protocol. Researcher, analyst, writer, and fact checker pass a task down the line, each with its own tools, and the reasoning trace streams back live.
+<br/><br/>
+<code>TypeScript</code>
 </td>
 </tr>
 <tr>
@@ -33,15 +38,20 @@ A research crew on Anthropic's Model Context Protocol. Researcher, analyst, writ
 <br/>
 <b><a href="https://github.com/DevNagi31/agent-debugger">Agent Debugger</a></b><br/>
 A time travel debugger for agent loops. Grab any tool call in a run, edit its input or output, and replay execution from that exact point instead of rerunning the whole session.
+<br/><br/>
+<code>TypeScript</code>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/token-analysis"><img src="assets/token-analysis.svg" alt="Token Analysis"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/token-analysis">Token Analysis</a></b><br/>
 A prompt cost optimizer and eval benchmark. Compresses prompts with rule based methods and an LLM, then scores semantic similarity against the original across ten models.
+<br/><br/>
+<code>TypeScript</code>
 </td>
 </tr>
 </table>
+
 
 ### Full stack
 
@@ -52,12 +62,16 @@ A prompt cost optimizer and eval benchmark. Compresses prompts with rule based m
 <br/>
 <b><a href="https://github.com/DevNagi31/devpulse">devpulse</a></b><br/>
 Developer analytics you can ask in plain English. Turns a question into SQL and runs it through AST checks first, so a generated statement can never touch anything it should not.
+<br/><br/>
+<code>TypeScript</code> &nbsp;·&nbsp; <a href="https://devpulse-orpin-five.vercel.app">Live demo ↗</a>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/eventhub"><img src="assets/eventhub.svg" alt="EventHub"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/eventhub">EventHub</a></b><br/>
 An event discovery platform. Faktory job queues, Haversine geospatial search, live chat over Socket.io, and a Claude recommendation layer. 15+ REST endpoints, Redis, Postgres.
+<br/><br/>
+<code>JavaScript</code>
 </td>
 </tr>
 <tr>
@@ -66,15 +80,20 @@ An event discovery platform. Faktory job queues, Haversine geospatial search, li
 <br/>
 <b><a href="https://github.com/DevNagi31/leetcode-arena">LeetCode Arena</a></b><br/>
 A competitive LeetCode platform with live rankings, streak tracking, activity heatmaps, and university leaderboards. MERN stack, Socket.io for the live parts.
+<br/><br/>
+<code>JavaScript</code> &nbsp;·&nbsp; <a href="https://leetcode-arena-seven.vercel.app">Live demo ↗</a>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/url-shortner"><img src="assets/url-shortner.svg" alt="URL Shortener"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/url-shortner">URL Shortener</a></b><br/>
 A link shortening service backed by Redis for caching and Postgres for persistence.
+<br/><br/>
+<code>Redis · Postgres</code>
 </td>
 </tr>
 </table>
+
 
 ### Collaboration and data
 
@@ -85,12 +104,16 @@ A link shortening service backed by Redis for caching and Postgres for persisten
 <br/>
 <b><a href="https://github.com/DevNagi31/syncpad">syncpad</a></b><br/>
 A collaborative Markdown editor that keeps working with no connection. Edits sync through Yjs CRDTs over server sent events and queue in IndexedDB while you are offline.
+<br/><br/>
+<code>TypeScript</code> &nbsp;·&nbsp; <a href="https://syncpad-delta.vercel.app">Live demo ↗</a>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/pulselab"><img src="assets/pulselab.svg" alt="pulselab"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/pulselab">pulselab</a></b><br/>
 An experimentation platform for people who take A/B tests seriously. Always valid sequential testing, CUPED variance reduction, sample ratio mismatch detection, and a Monte Carlo proof.
+<br/><br/>
+<code>Python</code>
 </td>
 </tr>
 <tr>
@@ -99,15 +122,20 @@ An experimentation platform for people who take A/B tests seriously. Always vali
 <br/>
 <b><a href="https://github.com/DevNagi31/chess-toxicity-analysis">Chess Toxicity Analysis</a></b><br/>
 An NLP project that ran 164,000+ posts from Reddit and 4chan through Google's Perspective API to measure toxicity in chess adjacent discourse. Flask dashboard, Postgres.
+<br/><br/>
+<code>Python</code>
 </td>
 <td width="50%">
 <a href="https://github.com/DevNagi31/BU-Map"><img src="assets/BU-Map.svg" alt="BU Campus Map"/></a>
 <br/>
 <b><a href="https://github.com/DevNagi31/BU-Map">BU Campus Map</a></b><br/>
 An interactive 3D map of the Binghamton University campus. 115 buildings, 700+ searchable rooms, GPS navigation, plus parking, dining, and bus routes on MapLibre GL JS.
+<br/><br/>
+<code>JavaScript</code>
 </td>
 </tr>
 </table>
+
 
 <hr>
 
