@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="EventHub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a1d"/>
+      <stop offset="1" stop-color="#0e1214"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.16" cy="0.12" r="0.9">
+      <stop offset="0" stop-color="#7c8db5" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#7c8db5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#dots)"/>
+  <rect width="1200" height="600" fill="url(#glow)"/>
+
+  <!-- accent rail -->
+  <rect x="0" y="0" width="10" height="600" fill="#7c8db5"/>
+
+  <!-- corner node motif -->
+  <g stroke="#7c8db5" stroke-width="2" opacity="0.5" fill="none">
+    <line x1="1040" y1="120" x2="1120" y2="80"/>
+    <line x1="1120" y1="80" x2="1150" y2="170"/>
+    <line x1="1040" y1="120" x2="1080" y2="210"/>
+    <line x1="1080" y1="210" x2="1150" y2="170"/>
+  </g>
+  <g fill="#7c8db5">
+    <circle cx="1040" cy="120" r="6"/><circle cx="1120" cy="80" r="6"/>
+    <circle cx="1150" cy="170" r="6"/><circle cx="1080" cy="210" r="6"/>
+  </g>
+
+  <!-- category tag -->
+  <text x="80" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26" letter-spacing="4" fill="#7c8db5">FULL STACK</text>
+
+  <!-- project name -->
+  <text x="78" y="320" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#f4f6f7">EventHub</text>
+
+  <!-- accent underline -->
+  <rect x="82" y="350" width="120" height="6" rx="3" fill="#7c8db5"/>
+
+  <!-- tagline -->
+  <text x="80" y="422" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="38" fill="#a6b2b7">Real-time event discovery platform</text>
+
+  <!-- repo footer -->
+  <text x="80" y="530" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26" fill="#5b6b70">github.com/DevNagi31/eventhub</text>
+</svg>
