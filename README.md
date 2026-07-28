@@ -1,6 +1,11 @@
 <h1 align="center">Dev Nagi</h1>
 <p align="center"><i>Computer Science graduate student at Binghamton University, SUNY</i></p>
 <p align="center">Open to software and machine learning engineering roles</p>
+<p align="center">I build agent tooling and full stack systems, and I care most about making them measurable.</p>
+
+<p align="center">
+<a href="https://portfolio-sandy-pi-24.vercel.app/"><b>Portfolio and Resume ↗</b></a>
+</p>
 
 <hr>
 
@@ -149,6 +154,6 @@ An interactive 3D map of the Binghamton University campus. 115 buildings, 700+ s
 
 <p align="center">
 <a href="https://linkedin.com/in/dev-nagi31"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a> &nbsp;
-<a href="https://dev-portfolio-murex-five.vercel.app/"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" height="40" /></a> &nbsp;
+<a href="https://portfolio-sandy-pi-24.vercel.app/"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" height="40" /></a> &nbsp;
 <a href="mailto:dnagi@binghamton.edu"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40" /></a>
 </p>
